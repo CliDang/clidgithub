@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+.logopng {
+    max-height: 100px;
+    max-width: 100px;
+    margin-bottom: 30px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+section {
+    background-color: #202020;
+    position: relative;
+    color: white;
+    margin: 5% 30% 20% 30%;
+    display: flex;
+    justify-content: center;
+}
+section .noidung {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+form > .item {
+    margin-bottom:30px;
+}
+.item > input[type="text"], input[type="password"], input[type="submit"] {
+    width: 100%;
+    padding: 10px 10px;
+    outline: none;
+    border: 1px solid rgb(196, 196, 196);
+    font-size: 16px;
+    background: #202020;
+    border-radius: 5px;
+    color:white;
+    height: 60px;
+}
+.item.ho >input[type="text"] ,.item.ten > input[type="text"] {
+    width: 48%;
+}
+.item.ho >input[type="text"]{
+    margin-right: 12px;
+}
+.item > input[type="submit"]{ 
+    background-color: rgb(0, 140, 255);
+    border:none;
+}
+input[type="password"] {
+    color: white;
+}
+/* Hiệu ứng */
+a {
+    color: gray;
+}
+a:hover {
+    color: white;
+    cursor: pointer;
+}
+.item > input[type="submit"]:hover{
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: rgb(46, 160, 253);
+}

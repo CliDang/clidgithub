@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(18,18,18);
+}
+*{
+    padding:0;
+    margin:0;
+}
+header{
+    background-color: rgb(71, 71, 71);
+}
+.logo {
+    max-width: 60px;
+    max-height: 60px;
+    padding: 10px 15px 10px 15px;
+}
+ul.items{
+    list-style-type: none;
+    display: flex;
+}
+
+li.item > a {
+    text-decoration: none;
+    color: rgb(172, 172, 172);
+    display: inline-block;
+    padding: 10px;
+    line-height: 52.36px;
+}
+li.item2{
+    margin-left: auto; 
+}
+li.item > a:hover{
+    color: rgb(216, 216, 216);
+    border-bottom: 5px solid blue;
+}
+div.bone2{
+    color:  #e7e7e7; 
+}
+footer{
+    background-color: rgb(71, 71, 71);
+    padding-top: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 25px;
+}
+i.fab{
+    color: #e7e7e7;
+    font-size: 40px;
+    padding-right: 10px;
+}
+i.fas{
+    color: #e7e7e7;
+    font-size: 40px;
+    padding-right: 10px;
+}
+i.fab:hover{
+    color: #4285F4;
+}
+div.fab{
+    display: flex;
+}
+div.Resources{
+    padding-top: 5px;
+    padding-bottom: 25px;
+    display: flex;
+}
+a.item{
+    color: #e7e7e7;
+    text-decoration: none;
+    padding-right: 25px;
+}
+div.MadeGames{
+    padding-bottom: 25px;
+}
+div.banquyen{
+    padding-top: 25px;
+    color: #e7e7e7;
+    font-size: 13px;
+}
+div.chinhsach{
+    padding-top: 25px;
+}
+/* noi dung */
+.noidung {
+    padding: 5% 10% 1% 10%;
+    color: white;
+}
+.noidung > .hotnews {
+    display: flex;
+    margin-bottom: 50px;
+}
+.noidung > .hotnews a.content , .noidung > div.chung a.content {
+    text-decoration: none;
+    color:white;
+}
+.hot1 {
+    margin: 10px 10px 5px 0px;
+}
+.hot2 {
+    margin: 10px 0px 5px 10px;
+}
+.game1 {
+    max-height: 400px;
+    max-width: 500px;
+    border-radius: 10px;
+}
+.time {
+    color:rgba(255, 255, 255, 0.568);
+}
+.readmore {
+    text-decoration: none;
+    color: white;
+}
+.game2 {
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 10px;
+    padding-right: 20px;
+}
+.noidung > .chung > .thanhphan {
+    margin: 20px 0px 20px 0px;
+    display: flex;
+}
+hr {
+    border-color:rgb(71, 71, 71);
+    height: 1px;
+}
+/* hieu ung */
+img.game1:hover , img.game2:hover {
+    transform: scale(1.1);
+} 
+img.game1 , img.game2 {
+    transition: transform 1s;
+}
+a.readmore:hover {
+    text-decoration: underline;
+}
+div#chuahinh , div#chuahinh {
+    overflow: hidden;
+}
+
+
+
+
+
+
